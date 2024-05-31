@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Wallet App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #131313; /* Dark background */
+            color: #FFFFFF; /* Light text color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #131313;
+            border: 1px solid #ECF2FE;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        input, button {
+            width: calc(100% - 22px); /* Adjust for padding and border */
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box; /* Ensure padding and border are included in the width */
+        }
+        button {
+            background-color: #ECF2FE; /* Main color */
+            color: #010000; /* Dark text color */
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #D0E1FF; /* Slightly darker shade for hover */
+        }
+        .back-button {
+            background-color: #131313; /* Dark background */
+            border: 1px solid #ECF2FE; /* Border color */
+            color: #ECF2FE; /* Text color */
+        }
+        .back-button:hover {
+            background-color: #2a2a2a; /* Slightly lighter dark background for hover */
+        }
+    </style>
+</head>
+<body>
+    <div id="app" class="container">
+        <!-- Buttons will be dynamically inserted here by JavaScript -->
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
